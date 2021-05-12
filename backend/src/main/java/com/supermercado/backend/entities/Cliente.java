@@ -1,7 +1,13 @@
 package com.supermercado.backend.entities;
 
-public class Cliente implements Serializable {
+import java.io.Serializable;
+
+public class Cliente implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String nome;
 	private String endereco;
@@ -65,7 +71,5 @@ public class Cliente implements Serializable {
 			return false;
 		return true;
 	}
-	
-
 	
 }
